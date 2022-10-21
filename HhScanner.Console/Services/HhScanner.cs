@@ -1,7 +1,4 @@
-﻿
-
-using HhScanner.Console;
-using HtmlAgilityPack;
+﻿using HtmlAgilityPack;
 
 namespace HhScanner
 {
@@ -28,7 +25,7 @@ namespace HhScanner
 
             var list = new List<string>();
 
-            var nodesEl = 
+            var nodesEl =
                 doc.DocumentNode.SelectNodes("//div[@class='vacancy-serp-item__layout']");
             foreach (var nodeEl in nodesEl)
             {
