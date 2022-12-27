@@ -1,7 +1,6 @@
 ﻿using HtmlAgilityPack;
-using System;
+
 using HhScanner.Console.Model;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace HhScanner
 {

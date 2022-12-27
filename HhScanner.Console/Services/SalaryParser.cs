@@ -70,6 +70,7 @@ namespace HhScanner
             {
                 case "руб.": return CurrencyType.RUB;
                 case "USD": return CurrencyType.USD;
+                case "EUR": return CurrencyType.EUR;
                 default: throw new ArgumentException(str);
             }
         }
