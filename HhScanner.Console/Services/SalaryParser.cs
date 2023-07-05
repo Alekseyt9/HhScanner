@@ -69,6 +69,8 @@ namespace HhScanner
             switch (str)
             {
                 case "руб.": return CurrencyType.RUB;
+                case "₽": return CurrencyType.RUB;
+                case "$": return CurrencyType.USD;
                 case "USD": return CurrencyType.USD;
                 case "EUR": return CurrencyType.EUR;
                 default: throw new ArgumentException(str);
